@@ -13,3 +13,6 @@ autogen-ext==0.4.5
 pydantic 
 chromadb ~= 0.6.3
 azure-search-documents~=11.5.2
+h11>=0.16.0 # not directly required, pinned by Snyk to avoid a vulnerability
+anyio>=4.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
